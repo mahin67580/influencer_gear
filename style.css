@@ -102,7 +102,7 @@ ul>li {
     justify-content: center;
     align-items: center;
     gap: 7px;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 
@@ -122,7 +122,7 @@ ul>li {
 
 .greet {
     width: 562px;
- 
+
     margin: 0 auto;
     text-align: center;
 }
@@ -132,7 +132,7 @@ ul>li {
     font-family: Poppins;
     font-size: 28px;
     font-weight: 600;
-    
+
 }
 
 .collection {
@@ -220,7 +220,59 @@ ul>li {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+    margin-top: 30px;
 }
+
+.pre_foot {
+    width: 1110px;
+   
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.pretxt {
+    
+}
+
+
+.pre_img {
+   
+}
+
+.pretxt>h1 {
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.pretxt>p {
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.btn_2 {
+    width: 155px;
+    height: 44px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+}
+ 
+
+
 
 
 
@@ -299,12 +351,34 @@ ul>li {
         text-align: center;
         margin-top: 20px;
     }
+
     .greet {
         width: 380px;
         margin: 0 auto;
         margin-top: 40px;
     }
 
+    .pre_foot {
+        width: 370px;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
 
+    }
+
+    .pre_img {
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+       
+    }
+
+    .pre_img>img {
+        width: 95%;
+    }
+    .pretxt {
+         text-align: center;
+    }
 
 }
