@@ -118,6 +118,119 @@ ul>li {
 
 }
 
+/* collection */
+
+.greet {
+    width: 562px;
+ 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.greet>p {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+
+.collection {
+    width: 1047px;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 30px;
+
+}
+
+.box {
+    width: 329px;
+    height: 476px;
+
+    padding: 17px 15px 14px 12px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+
+}
+
+.box>h2 {
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 16px;
+}
+
+.box>h3 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 6px;
+}
+
+.box>p {
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+}
+
+.star_container>h4 {
+    color: rgb(94, 99, 102);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+}
+
+.checked {
+    color: red;
+}
+
+.star_container {
+    width: 160px;
+    height: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seemore {
+    width: 1047px;
+
+    margin: 0 auto;
+    text-align: end;
+}
+
+.seemore>p {
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:600px) {
     nav {
@@ -125,14 +238,12 @@ ul>li {
         width: 380px;
         margin: 0 auto;
         margin-top: 20px;
-
     }
 
     .banner {
         width: 380px;
         flex-direction: column-reverse;
         margin-top: 20px;
-
     }
 
     .banner_img {
@@ -163,10 +274,37 @@ ul>li {
         font-weight: 700;
         line-height: 40px;
         margin-top: 10px;
-
     }
 
     .banner_txt>p {
         margin-bottom: 10px;
     }
+
+    /* collection */
+    .collection {
+        width: 380px;
+        margin-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box {
+        width: 329px;
+        height: 476px;
+        margin: 0 auto;
+    }
+
+    .seemore {
+        width: 320px;
+        margin-top: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .greet {
+        width: 380px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+
+
 }
