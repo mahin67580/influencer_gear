@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 1200px;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.hide {
+    display: flex;
+    gap: 30px;
+}
+
+nav>h1 {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+a {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul>li {
+    margin-left: 30px;
+}
+
+/* banner section */
+.banner {
+    width: 1200px;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner_txt {}
+
+.banner_txt>h1 {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-top: 70px;
+}
+
+.banner_txt>p {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.btn_one {
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    background: rgb(224, 44, 109);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-top: 10px;
+
+}
+
+
+
+.banner_img {
+
+    background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+}
+
+
+@media screen and (max-width:600px) {
+    nav {
+        justify-content: space-around;
+        width: 380px;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    .banner {
+        width: 380px;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+
+    }
+
+    .banner_img {
+        text-align: center;
+        background-size: 270px;
+
+    }
+
+    .banner_img>img {
+        width: 70%;
+    }
+
+    .hide {
+        display: none;
+
+    }
+
+    .banner_txt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .banner_txt>h1 {
+
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-top: 10px;
+
+    }
+
+    .banner_txt>p {
+        margin-bottom: 10px;
+    }
+}
